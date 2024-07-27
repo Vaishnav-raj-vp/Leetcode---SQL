@@ -1,3 +1,8 @@
+-- Leetcode challenge - 1174 
+-- If the preferred delivery date of the customer is the same as the order date then the order is called immediate otherwise it's called scheduled.
+-- The first order of a customer is the order with the earliest order date that customer made. It is guaranteed that a customer has exactly one first order.
+-- Write an SQL query to find the percentage of immediate orders in the first orders of all customers, rounded to 2 decimal places.
+  
 --CREATE TABLE deliveries (
 --    delivery_id INT PRIMARY KEY,
 --    customer_id INT,
